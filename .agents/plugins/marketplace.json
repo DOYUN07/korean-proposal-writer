@@ -1,0 +1,20 @@
+{
+  "name": "korean-proposal-writer",
+  "interface": {
+    "displayName": "제안서 라이터"
+  },
+  "plugins": [
+    {
+      "name": "proposal-writer",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
